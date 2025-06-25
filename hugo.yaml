@@ -1,7 +1,11 @@
-baseURL: https://just1a2noob.github.io/blog-website/
+baseURL: 'https://just1a2noob.github.io/blog-website/'
 languageCode: en-us
 title: Portofolio Website
 theme: hugo-profile
+
+# Fix asset loading issues
+relativeURLs: true
+canonifyURLs: true
 
 outputs:
   home:
@@ -301,7 +305,7 @@ params:
     items:
       - title: Dealing with Messy Data
         content: Cleaning data using Pipeline package from python.
-        # image: /images/projects/profile.png
+        image: images/4896718.jpg
         featured:
           name: Repo
           link: https://github.com/Just1a2Noob/Independent_Projects/blob/main/bank%20marketing/bank-marketing.ipynb
@@ -312,7 +316,7 @@ params:
 
       - title: Image Classification using Tensorflow
         content: Create a CNN model to classify crop leaves which are categorized into 38 different classes.
-        # image: /images/projects/converter.jpg
+        image: images/leaf-disease-classification.JPG
         featured:
           name: Repo
           link: https://github.com/Just1a2Noob/Independent_Projects/tree/main/New%20Plant%20Diseases%20Dataset
@@ -322,15 +326,15 @@ params:
           - "Neural Network"
 
       - title: School Administrative Form App
-        content: Creates a school administrative with a specified format, the app connects to a PostgreSQL database. It can inserd & remove data entries, and show the last 30 rows of data based on date.
-        # image: /images/projects/profile2.jpg
-        featured:
-          name: Repo
-          link: https://github.com/Just1a2Noob/Independent_Projects/tree/main/School%20transaction%20entry%20form
-        badges:
-          - "Python"
-          - "PostgreSQL"
-          - "Database"
+        content: Creates a school administrative with a specified format, the app connects to a PostgreSQL database. It can inserd & remove data entries, and show the last 30 rows of data based on date. 
+        image: images/school-transaction-app.png
+        featured: 
+          name: Repo 
+          link: https://github.com/Just1a2Noob/Independent_Projects/tree/main/School%20transaction%20entry%20form 
+        badges: 
+          - "Python" 
+          - "PostgreSQL" 
+          - "Database" 
           - "App"
 
   #Contact

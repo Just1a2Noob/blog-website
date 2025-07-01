@@ -303,16 +303,16 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Dealing with Messy Data
-        content: Cleaning data using Pipeline package from python.
+      - title: SQL-Warehouse from Scratch
+        content: Creating an SQL-Warehouse from scratch using PostgreSQL.
         image: images/4896718.jpg
         featured:
           name: Repo
-          link: https://github.com/Just1a2Noob/Independent_Projects/blob/main/bank%20marketing/bank-marketing.ipynb
+          link: https://github.com/Just1a2Noob/sql-warehouse
         badges:
           - "Pipeline"
-          - "Python"
-          - "Regression"
+          - "PostgreSQL"
+          - "Data Engineering"
 
       - title: Image Classification using Tensorflow
         content: Create a CNN model to classify crop leaves which are categorized into 38 different classes.
